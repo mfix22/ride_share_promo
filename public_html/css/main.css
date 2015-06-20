@@ -98,6 +98,27 @@ div.tooltip-inner {
     top: 0vh;
     color: #EA0B8C
 }
+.help{
+    font-family: "Bebas Neue Bold", sans-serif;
+    z-index: 10;
+    position: absolute;
+    font-size: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 85%;
+    color: #323232;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.help > p{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
 .title span{
     color: #070716;
 }
