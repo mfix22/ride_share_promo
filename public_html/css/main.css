@@ -115,10 +115,11 @@ div.tooltip-inner {
     height: 50px;
 }
 .help:hover{
+    margin-top: -1px;
     width:52px;
     height:52px;
     cursor: pointer;
-    /*this might not even be doing anything*/
+
     color: #EA0B8C;
 }
 .help > p{
