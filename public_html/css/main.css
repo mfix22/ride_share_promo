@@ -94,7 +94,7 @@ div.tooltip-inner {
     z-index: 10;
     position: absolute;
     font-size: 84px;
-    left: 52%;
+    left: 51.5%;
     transform: translate(-50%);
     top: 0vh;
     color: #EA0B8C
@@ -123,7 +123,7 @@ div.tooltip-inner {
 }
 .help > p{
     position: absolute;
-    top: 51.5%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
