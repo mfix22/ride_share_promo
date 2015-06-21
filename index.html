@@ -65,7 +65,7 @@
                         <img src="public_html/img/uber.png" alt="Uber" id="uberlogo" />
                     </a>
                     <div class="codeuber" id="ubercode" data-toggle="tooltip" data-placement="bottom" 
-                         title="Ctrl-C to Copy" data-trigger="manual">UBERSANDIEGO511</div>
+                         title="Code Copied" data-trigger="manual">UBERSANDIEGO511</div>
         </div>
           
         <div class="col-md-6 col-sm-12 col-xs-12" id="lyft">
@@ -73,7 +73,7 @@
                         <img src="public_html/img/lyft.png" alt="Lyft"id="lyftlogo"/>
                     </a>
                     <div class="codelyft" id="lyftcode" data-toggle="tooltip" data-placement="bottom" 
-                         title="Ctrl-C to Copy" data-trigger="manual">MIKE602540</div>
+                         title="Code Copied" data-trigger="manual">MIKE602540</div>
         </div>
         <div class="help" data-toggle="tooltip" data-placement="top" 
                          title="DOWNLOAD THE APPS AND ENTER THE CODE UNDER PROMOTIONS" data-trigger="click">
@@ -128,10 +128,19 @@
 document.onclick = function(e) {    
     if (e.target.className === 'codeuber') {
         SelectText('ubercode');
+        
+        
 //        $('[data-toggle="tooltip"]').tooltip()
     }
     else if(e.target.className === 'codelyft'){
         SelectText('lyftcode');
+    }
+    try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'successful' : 'unsuccessful';
+        console.log('Copying text command was ' + msg);
+    } catch (err) {
+        console.log('Oops, unable to copy');
     }
 };
     </script>
