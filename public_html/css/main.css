@@ -5,7 +5,8 @@
    ========================================================================== */
 @font-face{
     font-family: "Bebas Neue Bold";
-    src: url("/Windows/Fonts/BebasNeue Bold.otf");
+    /*src: url("/Windows/Fonts/BebasNeue Bold.otf");*/
+    src: url("../fonts/BebasNeue Bold.otf");
     font-weight: normal;
     font-style: normal;
 }
@@ -122,7 +123,7 @@ div.tooltip-inner {
 }
 .help > p{
     position: absolute;
-    top: 52%;
+    top: 51.5%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
