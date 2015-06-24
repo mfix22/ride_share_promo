@@ -18,12 +18,10 @@
         top: 85%;
         position: absolute;
     }
-}
-@media (min-width: 992px) { 
     .title span{
         color: #070716;
     }
-} 
+}
    
 @font-face{
     font-family: "Bebas Neue Bold";
