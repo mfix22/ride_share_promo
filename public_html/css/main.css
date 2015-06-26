@@ -37,6 +37,7 @@ body{
 .icon{
     font-size: 40px;
     color: white;
+
 }
 .icon:hover{
     color: #EA0B8C
@@ -159,7 +160,6 @@ div.tooltip-inner {
 .download{
     text-align: center;
 }
-
 
 
 
