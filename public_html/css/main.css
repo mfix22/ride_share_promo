@@ -154,9 +154,6 @@ div.tooltip-inner {
     left: 50%;
     transform: translate(-50%, -50%)
 }
-.title span{
-    color: #070716;
-}
 .download{
     text-align: center;
 }
