@@ -3,6 +3,26 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /* Medium devices (desktops, 992px and up) */
+@media(max-width: 992px){
+    .help{
+        position: fixed;
+        top: 90%;
+        left: 85%;
+    }
+}
+/*TODO fix this so it only has 1 query*/
+@media(min-width: 992px){
+    .help{
+        left: 50%;
+        top: 85%;
+        position: absolute;
+    }
+    .title span{
+        color: #070716;
+    }
+}
+   
 @font-face{
     font-family: "Bebas Neue Bold";
     /*src: url("/Windows/Fonts/BebasNeue Bold.otf");*/
@@ -98,6 +118,7 @@ div.tooltip-inner {
 }
 .title{
     font-family: "Bebas Neue Bold", sans-serif;
+    text-align: center;
     z-index: 10;
     position: absolute;
     font-size: 84px;
@@ -109,11 +130,8 @@ div.tooltip-inner {
 .help{
     font-family: "Bebas Neue Bold", sans-serif;
     z-index: 10;
-    position: absolute;
     font-size: 40px;
-    left: 50%;
     transform: translate(-50%);
-    top: 85%;
     color: #323232;
     text-align: center;
     background-color: white;
@@ -131,7 +149,7 @@ div.tooltip-inner {
 }
 .help > p{
     position: absolute;
-    top: 52%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
@@ -141,7 +159,6 @@ div.tooltip-inner {
 .download{
     text-align: center;
 }
-
 
 
 
