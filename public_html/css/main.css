@@ -10,6 +10,9 @@
         top: 90%;
         left: 85%;
     }
+    .icon{
+        font-size:30px;
+    }
 }
 /*TODO fix this so it only has 1 query*/
 @media(min-width: 992px){
@@ -20,6 +23,9 @@
     }
     .title span{
         color: #070716;
+    }
+    .icon{
+        font-size: 40px;
     }
 }
    
@@ -35,12 +41,10 @@ body{
     margin: 0px;
 }
 .icon{
-    font-size: 40px;
     color: white;
-
 }
 .icon:hover{
-    color: #EA0B8C
+    color: #EA0B8C 
 }
 /*
 .col-md-6{

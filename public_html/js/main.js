@@ -15,3 +15,6 @@ $('#lyftcode').click(function(){
     $('#lyftcode').tooltip('show');
     $('#ubercode').tooltip('hide');
 });
+$(window).scroll(function(){
+    $('.tooltip').css('position', 'fixed');
+});
