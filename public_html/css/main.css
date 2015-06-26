@@ -161,7 +161,9 @@ div.tooltip-inner {
 .download{
     text-align: center;
 }
-
+.tooltip{
+    position: fixed;
+}
 
 
 
