@@ -6,7 +6,7 @@
 //    sel.removeAllRanges(); 
 //    sel.addRange(r);
 //});
-$('[data-toggle="tooltip"]').tooltip()
+$('[data-toggle="tooltip"]').tooltip();
 $('#ubercode').click(function(){
     $('#ubercode').tooltip('show');
     $('#lyftcode').tooltip('hide');

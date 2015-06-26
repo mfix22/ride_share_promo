@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="public_html/css/main.css">
 
         <script src="public_html/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -67,7 +68,6 @@
                     <div class="codeuber" id="ubercode" data-toggle="tooltip" data-placement="bottom" 
                          title="Code Copied" data-trigger="manual">UBERSANDIEGO511</div>
         </div>
-          
         <div class="col-md-6 col-sm-12 col-xs-12" id="lyft">
                     <a href="https://www.lyft.com/cities/san-diego" target="_blank" class="logo">
                         <img src="public_html/img/lyft.png" alt="Lyft"id="lyftlogo"/>
@@ -76,10 +76,36 @@
                          title="Code Copied" data-trigger="manual">MIKE602540</div>
         </div>
         <div class="help" data-toggle="tooltip" data-placement="top" 
-                         title="DOWNLOAD THE APPS AND ENTER THE CODE UNDER PROMOTIONS" data-trigger="click">
+                         title="DOWNLOAD" data-trigger="click"
+                         data-html="true"
+                         data-template='<div class="tooltip" role="tooltip">
+                                            <div class="col-sm-6 download">
+                                                <a href="https://itunes.apple.com/us/app/uber/id368677368?mt=8" target="_blank">
+                                                    <i class="icon ion-social-apple"></i>
+                                                </a>
+                                                <br>
+                                                <a href="https://play.google.com/store/apps/details?id=com.ubercab&hl=en" target="_blank">
+                                                    <i class="icon ion-android-playstore"></i>
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-6 download">
+                                                <a href="https://itunes.apple.com/us/app/lyft-taxi-bus-app-alternative/id529379082?mt=8" target="_blank">
+                                                    <i class="icon ion-social-apple"></i>
+                                                </a>
+                                                <br>
+                                                <a href="https://play.google.com/store/apps/details?id=me.lyft.android&hl=en" target="_blank">
+                                                    <i class="icon ion-android-playstore"></i>
+                                                </a>
+                                            </div>
+                                            <div class="tooltip-arrow"></div>
+                                            <div class="tooltip-inner" style="font-size:15px;"></div>
+                                          
+                                        </div>'>
                          <p>?</p>
         </div>
     <!--</div>-->
+    <!--<i class="icon ion-social-apple"></i>
+    <i class="icon ion-android-playstore"></i>-->
 
 <!--    <div class="container">
        Example row of columns 
@@ -151,7 +177,7 @@ document.onclick = function(e) {
         <script src="public_html/js/vendor/bootstrap.min.js"></script>
 
         <script src="public_html/js/main.js"></script>
-
+        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <!--        <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

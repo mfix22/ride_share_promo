@@ -14,6 +14,13 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.icon{
+    font-size: 40px;
+    color: white;
+}
+.icon:hover{
+    color: #EA0B8C
+}
 /*
 .col-md-6{
     margin: 0px;
@@ -131,7 +138,9 @@ div.tooltip-inner {
 .title span{
     color: #070716;
 }
-
+.download{
+    text-align: center;
+}
 
 
 
